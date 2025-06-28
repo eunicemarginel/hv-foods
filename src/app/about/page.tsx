@@ -16,7 +16,7 @@ export default function AboutPage() {
                 </p>
 
                 <p className="text-[#4A2600] text-base mb-6">
-                    Whether you're planning a celebration or just need a sweet fix, HV Foods is here to add joy to every bite. We offer cookies in jars, custom trays, gift packs, and even bulk orders for festive events.
+                    Whether you&apos;re planning a celebration or just need a sweet fix, HV Foods is here to add joy to every bite. We offer cookies in jars, custom trays, gift packs, and even bulk orders for festive events.
                 </p>
 
                 <p className="text-[#4A2600] text-base">
