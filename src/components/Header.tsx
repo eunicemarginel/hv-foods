@@ -59,11 +59,11 @@ export default function Header() {
             {/* Mobile Nav */}
             {menuOpen && (
                 <div className="absolute top-full left-0 w-full bg-[#fff8e7] shadow-md flex flex-col gap-4 py-4 px-6 md:hidden z-50">
-                    <Link href="/" className="hover:text-yellow-500 transition">Home</Link>
-                    <Link href="/products" className="hover:text-yellow-500 transition">Products</Link>
-                    <Link href="/order" className="hover:text-yellow-500 transition">Order</Link>
-                    <Link href="/about" className="hover:text-yellow-500 transition">About</Link>
-                    <Link href="/contact" className="hover:text-yellow-500 transition">Contact</Link>
+                    <Link href="/" onClick={() => setMenuOpen(false)} className="hover:text-yellow-500 transition">Home</Link>
+                    <Link href="/products" onClick={() => setMenuOpen(false)} className="hover:text-yellow-500 transition">Products</Link>
+                    <Link href="/order" onClick={() => setMenuOpen(false)} className="hover:text-yellow-500 transition">Order</Link>
+                    <Link href="/about" onClick={() => setMenuOpen(false)} className="hover:text-yellow-500 transition">About</Link>
+                    <Link href="/contact" onClick={() => setMenuOpen(false)} className="hover:text-yellow-500 transition">Contact</Link>
                 </div>
             )}
         </header>
