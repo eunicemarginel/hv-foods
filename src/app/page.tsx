@@ -7,7 +7,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 flex items-center px-8 py-25 bg-white text-white">
           <div>
             <div className="bg-yellow-400 text-white px-4 py-2 rounded-xl font-semibold shadow-md inline-block mb-6 text-sm animate-bounce">
-              Free Delivery Orders from $120 · Sat & Sun Only
+              Free Delivery Orders from $120.00
             </div>
             <p className="uppercase text-yellow-400 text-sm tracking-widest mb-2">
               Now Available Online
