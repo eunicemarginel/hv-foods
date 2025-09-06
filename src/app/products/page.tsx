@@ -6,147 +6,190 @@ import ProductCard from '@/components/ProductCard'
 const allProducts = [
     // Cookies
     {
-        name: "Nutella Button",
+        name: "Nutella Cookies",
         category: "Cookies",
-        description: "Soft, eggless vanilla cookies topped with a dollop of rich Nutella — a bite-sized indulgence.",
+        description: "Soft, chewy cookies filled with rich, creamy Nutella for a chocolatey indulgence.",
+        price: "$17.00 / jar",
+        image: "/images/c1.webp"
+    },
+    {
+        name: "Almond London",
+        category: "Cookies",
+        description: "Crunchy whole almonds wrapped in chocolate and coated with crushed nuts..",
+        price: "$16.00 / box",
+        image: "/images/c3.webp"
+    },
+    {
+        name: "Almond Pod",
+        category: "Cookies",
+        description: "Buttery cookie cups filled with creamy almond goodness for a nutty delight.",
         price: "$16.00 / jar",
-        image: "/images/nutella.webp"
+        image: "/images/c4.webp"
     },
     {
-        name: "Nyonya Pineapple Tart",
+        name: "Almond London Pistachio",
         category: "Cookies",
-        description: "Traditional buttery tarts filled with tangy homemade pineapple jam. Eggless and full of festive nostalgia.",
-        price: "$17.00 / box",
-        image: "/images/nyonya.webp"
+        description: "A twist on the classic, with roasted pistachios covered in smooth chocolate.",
+        price: "$16.00 / jar",
+        image: "/images/c2.webp"
     },
     {
-        name: "M&M Smarties Butter Cookies",
+        name: "Cadbury Cookies",
         category: "Cookies",
-        description: "Crunchy eggless cookies studded with colorful chocolate buttons. A childhood favorite, made better.",
+        description: "Classic cookies loaded with chunks of Cadbury chocolate for the ultimate treat.",
+        price: "$17.00 / jar",
+        image: "/images/c5.webp"
+    },
+    {
+        name: "Crunch Butterscotch",
+        category: "Cookies",
+        description: "Crispy, golden cookies with sweet butterscotch crunch in every bite.",
+        price: "$16.00 / jar",
+        image: "/images/c6.webp"
+    },
+    {
+        name: "Dahlia Rainbow",
+        category: "Cookies",
+        description: "Traditional melt-in-your-mouth butter cookies in a burst of cheerful rainbow colors.",
         price: "$15.00 / jar",
-        image: "/images/smarties.webp"
+        image: "/images/c7.webp"
     },
     {
-        name: "Ondeh-Ondeh Cookies",
+        name: "Florentine Bites",
         category: "Cookies",
-        description: "Inspired by kuih ondeh-ondeh, these pandan cookies have a gula melaka twist. Vegan and addictive.",
+        description: " Crispy, caramelized nut clusters baked into bite-sized delights.",
+        price: "$16.00 / jar",
+        image: "/images/c8.webp"
+    },
+    {
+        name: "Signature Nutella Pod",
+        category: "Cookies",
+        description: "Our signature cookie cup filled generously with creamy Nutella.",
+        price: "$17.00 / jar",
+        image: "/images/c9.webp"
+    },
+    {
+        name: "Signature Red Velvet",
+        category: "Cookies",
+        description: "Soft red velvet cookies topped with a touch of cream cheese sweetness.",
+        price: "$17.00 / jar",
+        image: "/images/c10.webp"
+    },
+    {
+        name: "Grandma's Special Coconut Cookies",
+        category: "Cookies",
+        description: " Fragrant coconut cookies made with a timeless, traditional recipe.",
         price: "$15.00 / jar",
-        image: "/images/ondeh.webp"
+        image: "/images/c11.webp"
     },
     {
-        name: "Chocolate Butter Cookies",
+        name: "Mazola Peanut Cookies",
         category: "Cookies",
-        description: "Rich and crumbly eggless chocolate cookies — smooth and melt-in-your-mouth good.",
-        price: "$15.00 / jar",
-        image: "/images/choco-butter.webp"
+        description: "Crunchy, nutty peanut cookies with the nostalgic taste of Mazola oil.",
+        price: "$16.00 / jar",
+        image: "/images/c12.webp"
     },
     {
-        name: "Pandan Chocolate Chip Cookies",
+        name: "Magnum Cookies",
         category: "Cookies",
-        description: "Fragrant pandan cookies with sweet chocolate chip bursts. Eggless and uniquely local.",
-        price: "$15.00 / jar",
-        image: "/images/pandan.webp"
+        description: "Thick, indulgent cookies inspired by Magnum ice cream’s chocolatey crunch.",
+        price: "$17.00 / jar",
+        image: "/images/c13.webp"
     },
     {
-        name: "Red Velvet Butter Cookies",
+        name: "Original Makmur Cookies",
         category: "Cookies",
-        description: "Soft red velvet cookies with a buttery, eggless base and rich cocoa flavor.",
-        price: "$15.00 / jar",
-        image: "/images/redvelvet-cookies.webp"
-    },
-    {
-        name: "Cranberry Chocolate Lava Cookies",
-        category: "Cookies",
-        description: "Fudgy eggless cookies with a molten center, balanced with tart cranberry bits.",
-        price: "$15.00 / jar",
-        image: "/images/cranberry.webp"
-    },
-    {
-        name: "Christmas Jelly Candy",
-        category: "Cookies",
-        description: "Vegan-friendly jellies in festive shapes and flavors — fruity, fun, and perfect for gifting.",
+        description: "Traditional melt-in-your-mouth cookies filled with sweet ground peanuts.",
         price: "$10.00 / jar",
-        image: "/images/jelly.webp"
+        image: "/images/c14.webp"
+    },
+    {
+        name: "Makmur Pandan",
+        category: "Cookies",
+        description: "A pandan-flavored twist on the classic Makmur with a fragrant, buttery aroma.",
+        price: "$17.00 / jar",
+        image: "/images/c15.webp"
+    },
+    {
+        name: "Pineapple Tart",
+        category: "Cookies",
+        description: "Buttery pastry filled with sweet, tangy pineapple jam.. a festive favorite.",
+        price: "$18.00 / jar",
+        image: "/images/c16.webp"
+    },
+    {
+        name: "Suji Pure Butter Cookies",
+        category: "Cookies",
+        description: "Classic Suji cookies made with pure butter for rich, crumbly perfection.",
+        price: "$15.00 / jar",
+        image: "/images/c17.webp"
+    },
+    {
+        name: "Pineapple Cheese Tart Bar",
+        category: "Cookies",
+        description: "A modern bar version of pineapple tarts with a creamy cheese twist.",
+        price: "$18.00",
+        image: "/images/cc4.webp"
     },
     // Snacks
     {
-        name: "Crispy Snack Original Curry",
-        category: "Snacks",
-        description: "Thin, spiced crackers with bold curry flavor. Perfectly crispy and addictive.",
-        price: "$12.00 / pack",
-        image: "/images/curry-snack.webp"
-    },
-    {
-        name: "Crispy Snack Sambal",
-        category: "Snacks",
-        description: "A crunchy treat with real sambal kick — spicy, sweet, and totally snackable.",
-        price: "$12.00 / pack",
-        image: "/images/sambal-snack.webp"
-    },
-    {
-        name: "Butter Crispy Murukku",
+        name: "Murukku Crackers",
         category: "Snacks",
         description: "A buttery take on a Deepavali classic. Extra crispy with a satisfying crunch.",
-        price: "$14.00 / pack",
-        image: "/images/murukku.webp"
+        price: "$18.00 / pack",
+        image: "/images/s1.webp"
     },
     {
-        name: "Crispy Rose Cookies",
+        name: "Achi Murukku",
         category: "Snacks",
         description: "Delicate, airy cookies with rose-like crisp edges. Lightly sweet with an ultra-thin crunch.",
-        price: "$14.00 / pack",
-        image: "/images/rose-cookies.webp"
+        price: "$18.00 / pack",
+        image: "/images/s2.webp"
     },
-    {
-        name: "Anchovies Fried Cracker",
-        category: "Snacks",
-        description: "Savory anchovy-laced crackers with umami crunch. A classic Malaysian snack with attitude.",
-        price: "$12.00 / pack",
-        image: "/images/anchovies-snack.webp"
-    },
+
     // Cakes
     {
-        name: "Red Velvet Cheese Cream Rolls",
+        name: "Orange Butter Cake",
         category: "Cakes",
-        description: "Luscious red velvet sponge rolled with eggless cream cheese filling. Rich but light.",
-        price: "$15.00 / roll",
-        image: "/images/redvelvet-cake.webp"
+        description: "Soft, buttery cake infused with refreshing orange zest and flavor.",
+        price: "$20.00",
+        image: "/images/cc3.webp"
     },
     {
-        name: "Hazelnut Chocolate Roll",
+        name: "Hawaiian Pandan Coconut",
         category: "Cakes",
-        description: "Moist, eggless sponge cake rolled with creamy hazelnut chocolate. A Nutella-lover’s dream.",
-        price: "$15.00 / roll",
-        image: "/images/hazelnut-cake.webp"
+        description: "Fragrant pandan cake layered with shredded coconut and tropical flair.",
+        price: "$20.00",
+        image: "/images/cc1.webp"
     },
     {
-        name: "Nutella Roll",
+        name: "Cempedak Butter Cake",
         category: "Cakes",
-        description: "Swirls of soft, eggless cake and indulgent Nutella filling. Decadent and crowd-pleasing.",
-        price: "$15.00 / roll",
-        image: "/images/nutella-cake.webp"
+        description: "Moist, buttery cake infused with the sweet aroma of cempedak fruit.",
+        price: "$20.00",
+        image: "/images/cc2.webp"
     },
     {
-        name: "Tornado Cheese Cake",
+        name: "Almond Nutella Brownies",
         category: "Cakes",
-        description: "A Korean-style eggless cheesecake with fluffy texture and savory-sweet cheese flavor.",
-        price: "$20.00 / cake",
-        image: "/images/tornado-cake.webp"
+        description: "Rich, fudgy brownies swirled with creamy Nutella and topped with crunchy roasted almonds for the perfect balance of indulgence and crunch.",
+        price: "$22.00",
+        image: "/images/feat1.webp"
     },
     {
-        name: "Brownies",
+        name: "Ferrero Rocher Brownies",
         category: "Cakes",
-        description: "Dense, rich, and fudgy eggless brownies — everything you love in a square of joy.",
-        price: "$25.00 / box",
-        image: "/images/brownies.webp"
+        description: "Decadent brownies infused with Nutella and topped with Ferrero Rocher chocolates for a rich, indulgent treat.",
+        price: "$25.00",
+        image: "/images/feat2.webp"
     },
     {
-        name: "Chocolate Moist Cake",
+        name: "HV Special Almond Brownies",
         category: "Cakes",
-        description: "Ultra-moist, eggless chocolate cake with deep cocoa flavor. Melts in your mouth.",
-        price: "$22.00 / cake",
-        image: "/images/chocolate-cake.webp"
-    }
+        description: "Fudgy brownies swirled with Nutella and topped with crunchy almond slices for a rich and nutty delight.",
+        price: "$23.00",
+        image: "/images/feat3.webp"
+    },
 ]
 
 export default function ProductsPage() {

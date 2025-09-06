@@ -2,7 +2,7 @@
 
 export default function AboutPage() {
     return (
-        <section className="bg-[#fff8e7] py-20 px-6 min-h-screen">
+        <section className="bg-white py-20 px-6 min-h-screen">
             <div className="max-w-4xl mx-auto text-center">
                 <h1 className="text-4xl font-bold font-merienda text-[#643709] mb-6">About HV Foods</h1>
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
                             className="rounded-xl shadow-md object-cover w-full h-40"
                         />
                         <img
-                            src="/images/closeup-treats.png"
+                            src="/images/feat1.webp"
                             alt="Closeup Treats"
                             className="rounded-xl shadow-md object-cover w-full h-40"
                         />

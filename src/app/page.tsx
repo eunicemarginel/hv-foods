@@ -68,22 +68,22 @@ export default function Home() {
           <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
             {[
               {
-                name: 'Nutella Button',
-                image: '/images/nutella.webp', // Add this image to /public/images/
-                description: 'Soft, eggless vanilla cookies topped with a dollop of rich Nutella — a bite-sized indulgence.',
-                price: '$15 / jar',
+                name: 'Almond Nutella Brownies',
+                image: '/images/feat1.webp', // Add this image to /public/images/
+                description: 'Rich, fudgy brownies swirled with creamy Nutella and topped with crunchy roasted almonds for the perfect balance of indulgence and crunch.',
+                price: '$22.00',
               },
               {
-                name: 'Nyonya Pineapple Tart',
-                image: '/images/nyonya.webp', // Add this image to /public/images/
-                description: 'Traditional buttery tarts filled with tangy homemade pineapple jam. Eggless and full of festive nostalgia.',
-                price: '$18 / box',
+                name: 'Ferrero Rocher Brownies',
+                image: '/images/feat2.webp', // Add this image to /public/images/
+                description: 'Decadent brownies infused with Nutella and topped with Ferrero Rocher chocolates for a rich, indulgent treat.',
+                price: '$25.00',
               },
               {
-                name: 'Butter Crispy Murukku',
-                image: '/images/murukku.webp', // Add this image to /public/images/
-                description: 'A buttery take on a Deepavali classic. Extra crispy with a satisfying crunch.',
-                price: '$12 / pack',
+                name: 'HV Brownies Nutella Almond',
+                image: '/images/feat3.webp', // Add this image to /public/images/
+                description: 'Fudgy brownies swirled with Nutella and topped with crunchy almond slices for a rich and nutty delight.',
+                price: '$23.00',
               },
             ].map((product, index) => (
               <div

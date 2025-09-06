@@ -1,6 +1,6 @@
 export default function OrderPage() {
     return (
-        <section className="py-20 px-6 min-h-screen bg-[#fff8e7]">
+        <section className="py-20 px-6 min-h-screen bg-white">
             <div className="max-w-4xl mx-auto text-center">
                 <h1 className="text-4xl font-bold text-[#643709] mb-4 font-merienda">Place Your Order</h1>
                 <p className="text-[#4A2600] mb-8">
