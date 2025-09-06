@@ -16,7 +16,7 @@ const allProducts = [
         name: "Almond London",
         category: "Cookies",
         description: "Crunchy whole almonds wrapped in chocolate and coated with crushed nuts..",
-        price: "$16.00 / box",
+        price: "$16.00 / jar",
         image: "/images/c3.webp"
     },
     {
