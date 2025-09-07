@@ -100,7 +100,7 @@ const allProducts = [
         name: "Original Makmur Cookies",
         category: "Cookies",
         description: "Traditional melt-in-your-mouth cookies filled with sweet ground peanuts.",
-        price: "$10.00 / jar",
+        price: "$17.00 / jar",
         image: "/images/c14.webp"
     },
     {
