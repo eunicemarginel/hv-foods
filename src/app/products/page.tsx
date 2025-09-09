@@ -183,13 +183,13 @@ const allProducts = [
         price: "$25.00",
         image: "/images/feat2.webp"
     },
-    {
-        name: "HV Special Almond Brownies",
-        category: "Cakes",
-        description: "Fudgy brownies swirled with Nutella and topped with crunchy almond slices for a rich and nutty delight.",
-        price: "$23.00",
-        image: "/images/feat3.webp"
-    },
+    // {
+    //     name: "HV Special Almond Brownies",
+    //     category: "Cakes",
+    //     description: "Fudgy brownies swirled with Nutella and topped with crunchy almond slices for a rich and nutty delight.",
+    //     price: "$23.00",
+    //     image: "/images/feat3.webp"
+    // },
 ]
 
 export default function ProductsPage() {

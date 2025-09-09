@@ -80,10 +80,10 @@ export default function Home() {
                 price: '$25.00',
               },
               {
-                name: 'HV Brownies Nutella Almond',
-                image: '/images/feat3.webp', // Add this image to /public/images/
-                description: 'Fudgy brownies swirled with Nutella and topped with crunchy almond slices for a rich and nutty delight.',
-                price: '$23.00',
+                name: 'Cempedak Butter Cake',
+                image: '/images/cc2.webp', // Add this image to /public/images/
+                description: 'Moist, buttery cake infused with the sweet aroma of cempedak fruit.',
+                price: '$20.00',
               },
             ].map((product, index) => (
               <div
